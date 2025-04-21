@@ -24,5 +24,8 @@ dependencies = [
     "toml",
 ]
 
+[tool.setuptools.package-data]
+"mdp_models.models" = ["*.toml"]
+
 [project.urls]
 homepage = "https://github.com/grosed/mdp-models"
