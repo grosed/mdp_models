@@ -1,3 +1,4 @@
+import pkg_resources
 from collections import defaultdict
 import toml
 
