@@ -1,0 +1,28 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdp_models"
+version = "1.0.0"
+maintainers = [
+  { name="Daniel Grose", email="dan.grose@lancaster.ac.uk" },
+]
+authors = [
+  { name="Daniel Grose", email="dan.grose@lancaster.ac.uk"},
+]
+description = "A collection of Markov Discrete Process (MDP) models"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "toml",
+]
+
+[project.urls]
+homepage = "https://github.com/grosed/mdp-models"

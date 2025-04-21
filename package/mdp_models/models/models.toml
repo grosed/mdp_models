@@ -1,0 +1,4028 @@
+#########  CHAIN 1  ########## 
+
+# action 0
+[[chain-1]]
+state = "s0"
+action = "a0"
+new-state = "s1"
+probability = 1.0
+reward = -1.0
+
+[[chain-1]]
+state = "s1"
+action = "a0"
+new-state = "s1"
+probability = 0.9
+reward = -1.0
+
+[[chain-1]]
+state = "s1"
+action = "a0"
+new-state = "s2"
+probability = 0.1 
+reward = -1.0
+
+
+[[chain-1]]
+state = "s2"
+action = "a0"
+new-state = "s2"
+probability = 0.8
+reward = -1.0
+
+[[chain-1]]
+state = "s2"
+action = "a0"
+new-state = "s3"
+probability = 0.2 
+reward = -1.0
+
+[[chain-1]]
+state = "s3"
+action = "a0"
+new-state = "s3"
+probability = 0.7
+reward = -1.0
+
+[[chain-1]]
+state = "s3"
+action = "a0"
+new-state = "s4"
+probability = 0.3 
+reward = -1.0
+
+
+[[chain-1]]
+state = "s4"
+action = "a0"
+new-state = "s4"
+probability = 0.6
+reward = -1.0
+
+[[chain-1]]
+state = "s4"
+action = "a0"
+new-state = "s5"
+probability = 0.4 
+reward = -1.0
+
+[[chain-1]]
+state = "s5"
+action = "a0"
+new-state = "s5"
+probability = 1.0
+reward = -1.0
+
+
+# action 1
+[[chain-1]]
+state = "s0"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+
+# action 1
+[[chain-1]]
+state = "s1"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+
+# action 1
+[[chain-1]]
+state = "s2"
+action = "a1"
+new-state = "s0"
+probability = 0.1
+reward = 2.0
+
+# action 1
+[[chain-1]]
+state = "s3"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+# action 1
+[[chain-1]]
+state = "s4"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+# action 1
+[[chain-1]]
+state = "s5"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+
+#########  CHAIN 2  ########## 
+
+# action 0
+[[chain-2]]
+state = "s0"
+action = "a0"
+new-state = "s1"
+probability = 1.0
+reward = -1.0
+
+[[chain-2]]
+state = "s1"
+action = "a0"
+new-state = "s1"
+probability = 0.9
+reward = -1.0
+
+[[chain-2]]
+state = "s1"
+action = "a0"
+new-state = "s2"
+probability = 0.1 
+reward = -1.0
+
+
+[[chain-2]]
+state = "s2"
+action = "a0"
+new-state = "s2"
+probability = 0.8
+reward = -1.0
+
+[[chain-2]]
+state = "s2"
+action = "a0"
+new-state = "s3"
+probability = 0.2 
+reward = -1.0
+
+[[chain-2]]
+state = "s3"
+action = "a0"
+new-state = "s3"
+probability = 0.7
+reward = -1.0
+
+[[chain-2]]
+state = "s3"
+action = "a0"
+new-state = "s4"
+probability = 0.3 
+reward = -1.0
+
+
+[[chain-2]]
+state = "s4"
+action = "a0"
+new-state = "s4"
+probability = 0.6
+reward = -1.0
+
+[[chain-2]]
+state = "s4"
+action = "a0"
+new-state = "s5"
+probability = 0.4 
+reward = -1.0
+
+[[chain-2]]
+state = "s5"
+action = "a0"
+new-state = "s5"
+probability = 1.0
+reward = -1.0
+
+
+# action 1
+[[chain-2]]
+state = "s0"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+
+# action 1
+[[chain-2]]
+state = "s1"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+
+# action 1
+[[chain-2]]
+state = "s2"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+# action 1
+[[chain-2]]
+state = "s3"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+# action 1
+[[chain-2]]
+state = "s4"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+# action 1
+[[chain-2]]
+state = "s5"
+action = "a1"
+new-state = "s0"
+probability = 1.0
+reward = 2.0
+
+############################# LIFE STYLE ##################################
+
+[[life-style]]
+state = "healthy"
+action = "party"
+new-state = "healthy"
+probability = 0.7
+reward = 10
+
+[[life-style]]
+state = "healthy"
+action = "party"
+new-state = "sick"
+probability = 0.3
+reward = 10
+
+[[life-style]]
+state = "healthy"
+action = "relax"
+new-state = "healthy"
+probability = 0.95
+reward = 7
+
+[[life-style]]
+state = "healthy"
+action = "relax"
+new-state = "sick"
+probability = 0.05
+reward = 7
+
+
+[[life-style]]
+state = "sick"
+action = "party"
+new-state = "healthy"
+probability = 0.1
+reward = 2
+
+[[life-style]]
+state = "sick"
+action = "party"
+new-state = "sick"
+probability = 0.9
+reward = 2
+
+[[life-style]]
+state = "sick"
+action = "relax"
+new-state = "healthy"
+probability = 0.5
+reward = 0
+
+[[life-style]]
+state = "sick"
+action = "relax"
+new-state = "sick"
+probability = 0.5
+reward = 0
+
+
+############################# GRID WORLD 2 ##################################
+
+# -------------------  corners
+# cell 0
+[[grid-world-1]]
+state = 0
+action = "E"
+new-state = 1
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 0
+action = "E"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 0
+action = "S"
+new-state = 5
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 0
+action = "S"
+new-state = 1
+probability = 0.1
+reward = -0.01
+
+# cell 4
+[[grid-world-1]]
+state = 4
+action = "W"
+new-state = 3
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 4
+action = "W"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 4
+action = "S"
+new-state = 9
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 4
+action = "S"
+new-state = 3
+probability = 0.1
+reward = -0.01
+
+
+# cell 20
+[[grid-world-1]]
+state = 20
+action = "N"
+new-state = 15
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 20
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+[[grid-world-1]]
+state = 20
+action = "E"
+new-state = 21
+probability = 0.9
+reward = -1.0 # terminal !!
+
+[[grid-world-1]]
+state = 20
+action = "E"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+
+# cell 24
+[[grid-world-1]]
+state = 24
+action = "N"
+new-state = 19
+probability = 0.9
+reward = -0.01
+
+[[grid-world-1]]
+state = 24
+action = "N"
+new-state = 23
+probability = 0.1 # terminal
+reward = 1.0 # terminal
+
+[[grid-world-1]]
+state = 24
+action = "W"
+new-state = 23
+probability = 0.9
+reward = 1.0 # terminal !!
+
+[[grid-world-1]]
+state = 24
+action = "W"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+
+
+# -------------------  top
+# cell 1
+[[grid-world-1]]
+state = 1
+action = "W"
+new-state = 0
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "W"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "W"
+new-state = 2
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "S"
+new-state = 6
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "S"
+new-state = 0
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "S"
+new-state = 2
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 1
+action = "E"
+new-state = 2
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "E"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 1
+action = "E"
+new-state = 0
+probability = 0.1
+reward = -0.01
+
+# cell 2
+[[grid-world-1]]
+state = 2
+action = "W"
+new-state = 1
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "W"
+new-state = 3
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "W"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "S"
+new-state = 7
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "S"
+new-state = 1
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "S"
+new-state = 4
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "E"
+new-state = 3
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "E"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 2
+action = "E"
+new-state = 1
+probability = 0.1
+reward = -0.01
+
+# cell 3
+[[grid-world-1]]
+state = 3
+action = "W"
+new-state = 2
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "W"
+new-state = 4
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "W"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "S"
+new-state = 8
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "S"
+new-state = 2
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "S"
+new-state = 4
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "E"
+new-state = 4
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "E"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 3
+action = "E"
+new-state = 2
+probability = 0.1
+reward = -0.01
+
+
+
+# -------------------  bottom
+# cell 22
+[[grid-world-1]]
+state = 22
+action = "W"
+new-state = 21
+probability = 0.8
+reward = -1.0 # terminal
+
+[[grid-world-1]]
+state = 22
+action = "W"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 22
+action = "W"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+[[grid-world-1]]
+state = 22
+action = "N"
+new-state = 17
+probability = 0.8
+reward = -0.01
+
+[[grid-world-1]]
+state = 22
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+[[grid-world-1]]
+state = 22
+action = "N"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+[[grid-world-1]]
+state = 22
+action = "E"
+new-state = 23
+probability = 0.8
+reward = 1.0 # terminal
+
+[[grid-world-1]]
+state = 22
+action = "E"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 22
+action = "E"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+
+# -------------------  left
+
+# cell 5
+[[grid-world-1]]
+state = 5
+action = "N"
+new-state = 0
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 5
+action = "N"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 5
+action = "N"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 5
+action = "E"
+new-state = 6
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 5
+action = "E"
+new-state = 0
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 5
+action = "E"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 5
+action = "S"
+new-state = 10
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 5
+action = "S"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 5
+action = "S"
+new-state = 0
+probability = 0.1
+reward = -0.01
+
+
+
+# cell 10
+[[grid-world-1]]
+state = 10
+action = "N"
+new-state = 5
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 10
+action = "N"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 10
+action = "N"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 10
+action = "E"
+new-state = 11
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 10
+action = "E"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 10
+action = "E"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 10
+action = "S"
+new-state = 15
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 10
+action = "S"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 10
+action = "S"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+
+# cell 15
+[[grid-world-1]]
+state = 15
+action = "N"
+new-state = 10
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 15
+action = "N"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 15
+action = "N"
+new-state = 20
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 15
+action = "E"
+new-state = 16
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 15
+action = "E"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 15
+action = "E"
+new-state = 20
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 15
+action = "S"
+new-state = 20
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 15
+action = "S"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 15
+action = "S"
+new-state = 16
+probability = 0.1
+reward = -0.01 
+
+
+
+# -------------------  right
+
+# cell 9
+[[grid-world-1]]
+state = 9
+action = "N"
+new-state = 4
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 9
+action = "N"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 9
+action = "N"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 9
+action = "W"
+new-state = 8
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 9
+action = "W"
+new-state = 4
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 9
+action = "W"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 9
+action = "S"
+new-state = 14
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 9
+action = "S"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 9
+action = "S"
+new-state = 4
+probability = 0.1
+reward = -0.01
+
+# cell 14
+[[grid-world-1]]
+state = 14
+action = "N"
+new-state = 9
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 14
+action = "N"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 14
+action = "N"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 14
+action = "W"
+new-state = 13
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 14
+action = "W"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 14
+action = "W"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 14
+action = "S"
+new-state = 19
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 14
+action = "S"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 14
+action = "S"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+
+# cell 19
+[[grid-world-1]]
+state = 19
+action = "N"
+new-state = 14
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 19
+action = "N"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 19
+action = "N"
+new-state = 24
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 19
+action = "W"
+new-state = 18
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 19
+action = "W"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 19
+action = "W"
+new-state = 24
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 19
+action = "S"
+new-state = 24
+probability = 0.8
+reward = -0.01 
+
+[[grid-world-1]]
+state = 19
+action = "S"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 19
+action = "S"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+
+# -------------------  middle
+
+# cell 6
+
+[[grid-world-1]]
+state = 6
+action = "N"
+new-state = 1
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 6
+action = "N"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "N"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "N"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 6
+action = "E"
+new-state = 1
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 6
+action = "E"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "E"
+new-state = 7
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "E"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 6
+action = "S"
+new-state = 1
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 6
+action = "S"
+new-state = 5
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "S"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "S"
+new-state = 11
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 6
+action = "W"
+new-state = 1
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 6
+action = "W"
+new-state = 5
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "W"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 6
+action = "W"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+
+# cell 7
+
+[[grid-world-1]]
+state = 7
+action = "N"
+new-state = 2
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 7
+action = "N"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "N"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "N"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 7
+action = "E"
+new-state = 2
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 7
+action = "E"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "E"
+new-state = 8
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "E"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 7
+action = "S"
+new-state = 2
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 7
+action = "S"
+new-state = 6
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "S"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "S"
+new-state = 12
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 7
+action = "W"
+new-state = 2
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 7
+action = "W"
+new-state = 6
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "W"
+new-state = 8
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 7
+action = "W"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+
+# cell 8
+
+[[grid-world-1]]
+state = 8
+action = "N"
+new-state = 3
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 8
+action = "N"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "N"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "N"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 8
+action = "E"
+new-state = 3
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 8
+action = "E"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "E"
+new-state = 9
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "E"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 8
+action = "S"
+new-state = 3
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 8
+action = "S"
+new-state = 7
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "S"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "S"
+new-state = 13
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 8
+action = "W"
+new-state = 3
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 8
+action = "W"
+new-state = 7
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "W"
+new-state = 9
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 8
+action = "W"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+
+
+# cell 11
+
+[[grid-world-1]]
+state = 11
+action = "N"
+new-state = 6
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 11
+action = "N"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "N"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "N"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 11
+action = "E"
+new-state = 6
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 11
+action = "E"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "E"
+new-state = 12
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "E"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 11
+action = "S"
+new-state = 6
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 11
+action = "S"
+new-state = 10
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "S"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "S"
+new-state = 16
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 11
+action = "W"
+new-state = 6
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 11
+action = "W"
+new-state = 10
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "W"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 11
+action = "W"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+
+# cell 12
+
+[[grid-world-1]]
+state = 12
+action = "N"
+new-state = 7
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 12
+action = "N"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "N"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "N"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 12
+action = "E"
+new-state = 7
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 12
+action = "E"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "E"
+new-state = 13
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "E"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 12
+action = "S"
+new-state = 7
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 12
+action = "S"
+new-state = 11
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "S"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "S"
+new-state = 17
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 12
+action = "W"
+new-state = 7
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 12
+action = "W"
+new-state = 11
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "W"
+new-state = 13
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 12
+action = "W"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+
+# cell 13
+
+[[grid-world-1]]
+state = 13
+action = "N"
+new-state = 8
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 13
+action = "N"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "N"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "N"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 13
+action = "E"
+new-state = 8
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 13
+action = "E"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "E"
+new-state = 14
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "E"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 13
+action = "S"
+new-state = 8
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 13
+action = "S"
+new-state = 12
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "S"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "S"
+new-state = 18
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 13
+action = "W"
+new-state = 8
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 13
+action = "W"
+new-state = 12
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "W"
+new-state = 14
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 13
+action = "W"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+
+
+# cell 16
+
+[[grid-world-1]]
+state = 16
+action = "N"
+new-state = 11
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 16
+action = "N"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "N"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+
+[[grid-world-1]]
+state = 16
+action = "E"
+new-state = 11
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 16
+action = "E"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "E"
+new-state = 17
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "E"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+
+[[grid-world-1]]
+state = 16
+action = "S"
+new-state = 11
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 16
+action = "S"
+new-state = 15
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "S"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "S"
+new-state = 21
+probability = 0.7
+reward = -1.0 # terminal
+
+
+[[grid-world-1]]
+state = 16
+action = "W"
+new-state = 11
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 16
+action = "W"
+new-state = 15
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "W"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 16
+action = "W"
+new-state = 21
+probability = 0.1
+reward = -1.0 # terminal
+
+
+# cell 17
+
+[[grid-world-1]]
+state = 17
+action = "N"
+new-state = 12
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 17
+action = "N"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "N"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "N"
+new-state = 22
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 17
+action = "E"
+new-state = 12
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 17
+action = "E"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "E"
+new-state = 18
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "E"
+new-state = 22
+probability = 0.1
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 17
+action = "S"
+new-state = 12
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 17
+action = "S"
+new-state = 16
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "S"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "S"
+new-state = 22
+probability = 0.7
+reward = -0.01
+
+
+[[grid-world-1]]
+state = 17
+action = "W"
+new-state = 12
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 17
+action = "W"
+new-state = 16
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "W"
+new-state = 18
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 17
+action = "W"
+new-state = 22
+probability = 0.1
+reward = -0.01
+
+
+# cell 18
+
+[[grid-world-1]]
+state = 18
+action = "N"
+new-state = 13
+probability = 0.7
+reward = -0.01 
+
+[[grid-world-1]]
+state = 18
+action = "N"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "N"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "N"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+[[grid-world-1]]
+state = 18
+action = "E"
+new-state = 13
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 18
+action = "E"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "E"
+new-state = 19
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "E"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+[[grid-world-1]]
+state = 18
+action = "S"
+new-state = 13
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 18
+action = "S"
+new-state = 17
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "S"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "S"
+new-state = 23
+probability = 0.7
+reward = 1.0 # terminal
+
+
+[[grid-world-1]]
+state = 18
+action = "W"
+new-state = 13
+probability = 0.1
+reward = -0.01 
+
+[[grid-world-1]]
+state = 18
+action = "W"
+new-state = 17
+probability = 0.7
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "W"
+new-state = 19
+probability = 0.1
+reward = -0.01
+
+[[grid-world-1]]
+state = 18
+action = "W"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+
+############################# GRID WORLD 2 ##################################
+
+# -------------------  corners
+# cell 0
+[[grid-world-2]]
+state = 0
+action = "E"
+new-state = 1
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 0
+action = "E"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 0
+action = "S"
+new-state = 5
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 0
+action = "S"
+new-state = 1
+probability = 0.1
+reward = 0.0
+
+# cell 4
+[[grid-world-2]]
+state = 4
+action = "W"
+new-state = 3
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 4
+action = "W"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 4
+action = "S"
+new-state = 9
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 4
+action = "S"
+new-state = 3
+probability = 0.1
+reward = 0.0
+
+
+# cell 20
+[[grid-world-2]]
+state = 20
+action = "N"
+new-state = 15
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 20
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+[[grid-world-2]]
+state = 20
+action = "E"
+new-state = 21
+probability = 0.9
+reward = -100.0 # terminal !!
+
+[[grid-world-2]]
+state = 20
+action = "E"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+
+# cell 24
+[[grid-world-2]]
+state = 24
+action = "N"
+new-state = 19
+probability = 0.9
+reward = 0.0
+
+[[grid-world-2]]
+state = 24
+action = "N"
+new-state = 23
+probability = 0.1 # terminal
+reward = 1.0 # terminal
+
+[[grid-world-2]]
+state = 24
+action = "W"
+new-state = 23
+probability = 0.9
+reward = 1.0 # terminal !!
+
+[[grid-world-2]]
+state = 24
+action = "W"
+new-state = 19
+probability = 0.1
+reward = 0.0
+
+
+
+# -------------------  top
+# cell 1
+[[grid-world-2]]
+state = 1
+action = "W"
+new-state = 0
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "W"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "W"
+new-state = 2
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "S"
+new-state = 6
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "S"
+new-state = 0
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "S"
+new-state = 2
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 1
+action = "E"
+new-state = 2
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "E"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 1
+action = "E"
+new-state = 0
+probability = 0.1
+reward = 0.0
+
+# cell 2
+[[grid-world-2]]
+state = 2
+action = "W"
+new-state = 1
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "W"
+new-state = 3
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "W"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "S"
+new-state = 7
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "S"
+new-state = 1
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "S"
+new-state = 4
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "E"
+new-state = 3
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "E"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 2
+action = "E"
+new-state = 1
+probability = 0.1
+reward = 0.0
+
+# cell 3
+[[grid-world-2]]
+state = 3
+action = "W"
+new-state = 2
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "W"
+new-state = 4
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "W"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "S"
+new-state = 8
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "S"
+new-state = 2
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "S"
+new-state = 4
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "E"
+new-state = 4
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "E"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 3
+action = "E"
+new-state = 2
+probability = 0.1
+reward = 0.0
+
+
+
+# -------------------  bottom
+# cell 22
+[[grid-world-2]]
+state = 22
+action = "W"
+new-state = 21
+probability = 0.8
+reward = -100.0 # terminal
+
+[[grid-world-2]]
+state = 22
+action = "W"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 22
+action = "W"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+[[grid-world-2]]
+state = 22
+action = "N"
+new-state = 17
+probability = 0.8
+reward = 0.0
+
+[[grid-world-2]]
+state = 22
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+[[grid-world-2]]
+state = 22
+action = "N"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+[[grid-world-2]]
+state = 22
+action = "E"
+new-state = 23
+probability = 0.8
+reward = 1.0 # terminal
+
+[[grid-world-2]]
+state = 22
+action = "E"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 22
+action = "E"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+
+# -------------------  left
+
+# cell 5
+[[grid-world-2]]
+state = 5
+action = "N"
+new-state = 0
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 5
+action = "N"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 5
+action = "N"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 5
+action = "E"
+new-state = 6
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 5
+action = "E"
+new-state = 0
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 5
+action = "E"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 5
+action = "S"
+new-state = 10
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 5
+action = "S"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 5
+action = "S"
+new-state = 0
+probability = 0.1
+reward = 0.0
+
+
+
+# cell 10
+[[grid-world-2]]
+state = 10
+action = "N"
+new-state = 5
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 10
+action = "N"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 10
+action = "N"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 10
+action = "E"
+new-state = 11
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 10
+action = "E"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 10
+action = "E"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 10
+action = "S"
+new-state = 15
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 10
+action = "S"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 10
+action = "S"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+
+# cell 15
+[[grid-world-2]]
+state = 15
+action = "N"
+new-state = 10
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 15
+action = "N"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 15
+action = "N"
+new-state = 20
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 15
+action = "E"
+new-state = 16
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 15
+action = "E"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 15
+action = "E"
+new-state = 20
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 15
+action = "S"
+new-state = 20
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 15
+action = "S"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 15
+action = "S"
+new-state = 16
+probability = 0.1
+reward = 0.0 
+
+
+
+# -------------------  right
+
+# cell 9
+[[grid-world-2]]
+state = 9
+action = "N"
+new-state = 4
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 9
+action = "N"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 9
+action = "N"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 9
+action = "W"
+new-state = 8
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 9
+action = "W"
+new-state = 4
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 9
+action = "W"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 9
+action = "S"
+new-state = 14
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 9
+action = "S"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 9
+action = "S"
+new-state = 4
+probability = 0.1
+reward = 0.0
+
+# cell 14
+[[grid-world-2]]
+state = 14
+action = "N"
+new-state = 9
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 14
+action = "N"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 14
+action = "N"
+new-state = 19
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 14
+action = "W"
+new-state = 13
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 14
+action = "W"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 14
+action = "W"
+new-state = 19
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 14
+action = "S"
+new-state = 19
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 14
+action = "S"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 14
+action = "S"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+
+# cell 19
+[[grid-world-2]]
+state = 19
+action = "N"
+new-state = 14
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 19
+action = "N"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 19
+action = "N"
+new-state = 24
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 19
+action = "W"
+new-state = 18
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 19
+action = "W"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 19
+action = "W"
+new-state = 24
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 19
+action = "S"
+new-state = 24
+probability = 0.8
+reward = 0.0 
+
+[[grid-world-2]]
+state = 19
+action = "S"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 19
+action = "S"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+
+# -------------------  middle
+
+# cell 6
+
+[[grid-world-2]]
+state = 6
+action = "N"
+new-state = 1
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 6
+action = "N"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "N"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "N"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 6
+action = "E"
+new-state = 1
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 6
+action = "E"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "E"
+new-state = 7
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "E"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 6
+action = "S"
+new-state = 1
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 6
+action = "S"
+new-state = 5
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "S"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "S"
+new-state = 11
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 6
+action = "W"
+new-state = 1
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 6
+action = "W"
+new-state = 5
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "W"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 6
+action = "W"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+
+# cell 7
+
+[[grid-world-2]]
+state = 7
+action = "N"
+new-state = 2
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 7
+action = "N"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "N"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "N"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 7
+action = "E"
+new-state = 2
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 7
+action = "E"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "E"
+new-state = 8
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "E"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 7
+action = "S"
+new-state = 2
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 7
+action = "S"
+new-state = 6
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "S"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "S"
+new-state = 12
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 7
+action = "W"
+new-state = 2
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 7
+action = "W"
+new-state = 6
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "W"
+new-state = 8
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 7
+action = "W"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+
+# cell 8
+
+[[grid-world-2]]
+state = 8
+action = "N"
+new-state = 3
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 8
+action = "N"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "N"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "N"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 8
+action = "E"
+new-state = 3
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 8
+action = "E"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "E"
+new-state = 9
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "E"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 8
+action = "S"
+new-state = 3
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 8
+action = "S"
+new-state = 7
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "S"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "S"
+new-state = 13
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 8
+action = "W"
+new-state = 3
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 8
+action = "W"
+new-state = 7
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "W"
+new-state = 9
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 8
+action = "W"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+
+
+# cell 11
+
+[[grid-world-2]]
+state = 11
+action = "N"
+new-state = 6
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 11
+action = "N"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "N"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "N"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 11
+action = "E"
+new-state = 6
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 11
+action = "E"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "E"
+new-state = 12
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "E"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 11
+action = "S"
+new-state = 6
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 11
+action = "S"
+new-state = 10
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "S"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "S"
+new-state = 16
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 11
+action = "W"
+new-state = 6
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 11
+action = "W"
+new-state = 10
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "W"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 11
+action = "W"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+
+# cell 12
+
+[[grid-world-2]]
+state = 12
+action = "N"
+new-state = 7
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 12
+action = "N"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "N"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "N"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 12
+action = "E"
+new-state = 7
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 12
+action = "E"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "E"
+new-state = 13
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "E"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 12
+action = "S"
+new-state = 7
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 12
+action = "S"
+new-state = 11
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "S"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "S"
+new-state = 17
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 12
+action = "W"
+new-state = 7
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 12
+action = "W"
+new-state = 11
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "W"
+new-state = 13
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 12
+action = "W"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+
+# cell 13
+
+[[grid-world-2]]
+state = 13
+action = "N"
+new-state = 8
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 13
+action = "N"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "N"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "N"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 13
+action = "E"
+new-state = 8
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 13
+action = "E"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "E"
+new-state = 14
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "E"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 13
+action = "S"
+new-state = 8
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 13
+action = "S"
+new-state = 12
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "S"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "S"
+new-state = 18
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 13
+action = "W"
+new-state = 8
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 13
+action = "W"
+new-state = 12
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "W"
+new-state = 14
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 13
+action = "W"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+
+
+# cell 16
+
+[[grid-world-2]]
+state = 16
+action = "N"
+new-state = 11
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 16
+action = "N"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "N"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "N"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+
+[[grid-world-2]]
+state = 16
+action = "E"
+new-state = 11
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 16
+action = "E"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "E"
+new-state = 17
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "E"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+
+[[grid-world-2]]
+state = 16
+action = "S"
+new-state = 11
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 16
+action = "S"
+new-state = 15
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "S"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "S"
+new-state = 21
+probability = 0.7
+reward = -100.0 # terminal
+
+
+[[grid-world-2]]
+state = 16
+action = "W"
+new-state = 11
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 16
+action = "W"
+new-state = 15
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "W"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 16
+action = "W"
+new-state = 21
+probability = 0.1
+reward = -100.0 # terminal
+
+
+# cell 17
+
+[[grid-world-2]]
+state = 17
+action = "N"
+new-state = 12
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 17
+action = "N"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "N"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "N"
+new-state = 22
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 17
+action = "E"
+new-state = 12
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 17
+action = "E"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "E"
+new-state = 18
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "E"
+new-state = 22
+probability = 0.1
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 17
+action = "S"
+new-state = 12
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 17
+action = "S"
+new-state = 16
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "S"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "S"
+new-state = 22
+probability = 0.7
+reward = 0.0
+
+
+[[grid-world-2]]
+state = 17
+action = "W"
+new-state = 12
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 17
+action = "W"
+new-state = 16
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "W"
+new-state = 18
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 17
+action = "W"
+new-state = 22
+probability = 0.1
+reward = 0.0
+
+
+# cell 18
+
+[[grid-world-2]]
+state = 18
+action = "N"
+new-state = 13
+probability = 0.7
+reward = 0.0 
+
+[[grid-world-2]]
+state = 18
+action = "N"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "N"
+new-state = 19
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "N"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+[[grid-world-2]]
+state = 18
+action = "E"
+new-state = 13
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 18
+action = "E"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "E"
+new-state = 19
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "E"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+[[grid-world-2]]
+state = 18
+action = "S"
+new-state = 13
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 18
+action = "S"
+new-state = 17
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "S"
+new-state = 19
+probability = 0.1
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "S"
+new-state = 23
+probability = 0.7
+reward = 1.0 # terminal
+
+
+[[grid-world-2]]
+state = 18
+action = "W"
+new-state = 13
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 18
+action = "W"
+new-state = 17
+probability = 0.7
+reward = 0.0
+
+[[grid-world-2]]
+state = 18
+action = "W"
+new-state = 19
+probability = 0.1
+reward = 0.0 
+
+[[grid-world-2]]
+state = 18
+action = "W"
+new-state = 23
+probability = 0.1
+reward = 1.0 # terminal
+
+
+# terminal states
+
+[[grid-world-2]]
+state = 21
+action = "S"
+new-state = 25 # end state
+probability = 1.0
+reward = -100.0
+
+[[grid-world-2]]
+state = 23
+action = "S"
+new-state = 25 # end state
+probability = 1.0
+reward = 1.0
+
+
+
+
+
+
+
