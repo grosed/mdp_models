@@ -1,8 +1,9 @@
 from collections import defaultdict
 import toml
 
-def load(file_name,model_name, file_name = "models") :
-    with open(file_name, 'r') as f:
+def load(model_name,file_name="models.toml") :
+    full_file_name = pkg_resources.resource_filename('mdp_models', "models/" + file_name)
+    with open(full_file_name, 'r') as f:
     	models = toml.load(f)
     nodes = models[model_name]
     states = list()
@@ -36,4 +37,6 @@ def load(file_name,model_name, file_name = "models") :
         return rewards[(state,action,new_state)]
     return state_iterator,action_function,transition_function,probability_function,reward_function
 
-S,A,T,P,R = toml_2_mdp("models.toml","chain-1")
+
+
+
